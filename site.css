@@ -1,0 +1,606 @@
+/*
+Theme Name: Vikings template
+Author: WebLamas
+Template:     weblamas_template
+Author URI: https://weblamas.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@font-face { 
+	font-family: 'RistrettoPro-Bold'; 
+	src: url('/font/RistrettoPro-Bold.eot?#iefix') format('embedded-opentype'), url('/font/RistrettoPro-Bold.otf') format('opentype'), url('/font/RistrettoPro-Bold.woff') format('woff'), url('/font/RistrettoPro-Bold.ttf') format('truetype'), url('/font/RistrettoPro-Bold.svg#RistrettoPro-Bold') format('svg'); 	
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: 'Oranienbaum-Regular'; 
+	src: url('font/Oranienbaum-Regular.eot?#iefix') format('embedded-opentype'), url('font/Oranienbaum-Regular.woff') format('woff'), url('font/Oranienbaum-Regular.ttf') format('truetype'), url('font/Oranienbaum-Regular.svg#Oranienbaum-Regular') format('svg'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr-Roman';
+	src: url('font/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),  url('font/HelveticaNeueCyr-Roman.otf')  format('opentype'),
+		   url('font/HelveticaNeueCyr-Roman.woff') format('woff'), url('font/HelveticaNeueCyr-Roman.ttf')  format('truetype'), url('font/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'RistrettoPro-Regular';
+	src: url('font/RistrettoPro-Regular.eot?#iefix') format('embedded-opentype'),  url('font/RistrettoPro-Regular.otf')  format('opentype'),
+		   url('font/RistrettoPro-Regular.woff') format('woff'), url('font/RistrettoPro-Regular.ttf')  format('truetype'), url('font/RistrettoPro-Regular.svg#RistrettoPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+
+  
+.main-frame {
+	background: url('img/main_background.jpg') no-repeat scroll;  
+	height:100%;
+}
+
+.about-frame {
+	background: url('img/pro-nas_background.jpg') no-repeat scroll;
+	height:730px;
+	font-family:'Oranienbaum-Regular';
+	color:#211813;
+}
+
+.about-1 {
+	background: url('img/pro-nas_1.jpg') no-repeat;	
+	width:50%;
+	height:40%;
+}
+
+.about-2 {
+	background: url('img/pro-nas_2.jpg') no-repeat;
+	width:50%;
+	height:40%;
+}
+
+.about-3 {
+	background: url('img/pro-nas_3.jpg') no-repeat;
+	width:40%;
+	height:100%;
+}
+
+.about-4 {
+	background: url('img/pro-nas_4.jpg') no-repeat; 
+	width:100%;
+	height:60%;
+}
+
+.podii-frame {
+	background: url('img/podii_background.jpg') no-repeat scroll;
+	height:1155px;
+}
+
+.zahodi-frame {
+	background: url('img/zahodi_background.jpg') no-repeat scroll;
+	height:100%;
+	min-height:1073px;
+	position:relative;
+}
+
+.tren-1 {
+	background: url('img/tren_1.jpg') no-repeat;	
+	height:50%;
+}
+
+.tren-2 {
+	background: url('img/tren_2.jpg') no-repeat;
+	width:50%;
+	height:40%;	
+}
+
+.tren-3 {
+	background: url('img/tren_3.jpg') no-repeat;
+	width:50%;
+	height:40%;	
+}
+
+.tren-4 {
+	background: url('img/tren_4.jpg') no-repeat;
+	width:100%;
+	height:60%;	
+}
+
+.tren-contain{
+	width:45%;
+	height:100%;
+}
+
+.tren-text-contain{
+	width:55%;
+	height:100%;
+}
+
+.tren-freespace{
+	width:17%;
+	height:100%;
+}
+
+.contacts-frame {
+	background: url('img/contact_background.jpg') no-repeat scroll;
+	height:1000px;
+}
+
+.background-cover{
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+	background-position: center;
+}
+
+.header{
+	background-color:#ffeec4;
+	opacity:0.75;
+	height:80px;
+}
+
+.header-links{
+	height:100%;
+	padding-top:30px;		
+	letter-spacing: 0.05em;
+}
+
+.header-links-left{
+	float:left;
+	padding-left: 50px;
+}
+
+.header-links-right{
+	float:right;
+	width: 37%;
+}
+
+.header-links-right.right{
+	width: 25%;
+}
+
+.header-links-right span{
+	position: relative;
+	color:#211813;
+	text-decoration: none;
+	font-size:20px;	
+	font-family: "RistrettoPro-Regular";
+}
+
+.last-head{
+	padding-left: 10px;
+}
+
+a {
+	position: relative;
+	color:#211813;
+	text-decoration: none;
+	font-size:20px;	
+	font-family: "RistrettoPro-Regular";
+}
+
+a.active-link{
+	color:#bd9663;
+}
+
+.hover-underscore a {
+	padding: 0 0 5px;
+}
+
+.hover-underscore a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #bd9663;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.hover-underscore a:hover::after,
+.hover-underscore a:focus::after {
+	height: 5px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+.header-logo{
+	 background-color:#ffeec4;
+	 border-radius:90px;
+	 width:180px;
+	 height:180px;	 
+}
+.header-logo img{
+	width:130px;
+	 height:130px;
+	 padding-top: 25px;
+}
+
+.main-page-text{
+	width: 60vw;
+    height: 40vh;
+    font-size: 8vw;
+	margin-left:17%;    
+	bottom: 10%;    
+	position: absolute;
+	color:#ffeab3;
+	font-family:"Oranienbaum-Regular";	
+	letter-spacing: 0.05em;
+	line-height: 160px;
+}
+
+
+.btn {
+	border: 1px solid #211813;
+    width: 210px;
+    height: 50px;
+    padding: 6px 62px 6px 62px;
+    outline: 1px solid #211813;
+	outline-offset: 4px;
+	font-family:"RistrettoPro-Bold";
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+}
+
+.btn.btn-white{
+	border: 1px solid #ffeab3;
+	outline: 1px solid #ffeab3;
+	color:#ffeab3;
+}
+
+.btn.btn-white:hover {
+	background-color: #ffeab3;
+	color:#211813;
+}
+
+.btn:hover {
+	background-color: #211813;
+	color:#ffeab3;
+}
+
+.icon-lines:after,.icon-lines:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 3px;
+    width: 1px;
+    background: #211813
+}
+
+.btn-white .icon-lines:after,.btn-white .icon-lines:before {
+	background: #ffeab3
+}
+
+.icon-lines:after,.icon-lines:before {
+    height: 9px
+}
+
+.icon-lines:before {
+    top: -9px
+}
+
+.icon-lines:after {
+    bottom: -9px
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.podii-elem-h{
+	font-family: "Oranienbaum-Regular";
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #211813;	
+	letter-spacing: 0.05em;
+}
+.podii-elem-text{
+	font-family: "HelveticaNeueCyr-Roman";
+	font-style: Roman;
+	font-size: 20px;
+	color: #211813;	
+	letter-spacing: 0.05em;
+}
+
+.background-video{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.contact-head{
+	font-size:99px;
+	padding-top:100px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.contact-text{
+	font-size:58px;
+	padding-bottom: 100px;
+}
+
+.form-input{
+	font-family: "HelveticaNeueCyr-Roman";
+	color: #211813;
+	font-size: 16px;
+	background: transparent;
+	border: 1px solid #211813;
+	text-indent: 30px;
+}
+
+.form-input.small{
+	width: 49%;
+	height: 60px;
+}
+
+.form-input.big{
+	width: 100%;
+	height: 212px;
+	margin-top:34px;
+	margin-bottom:45px;
+	padding-top: 30px;
+}
+
+h2.background
+{
+  position: relative;
+  z-index: 1;
+  text-align:center;
+}
+
+h2::before
+{
+  border-top: 2px solid #dfdfdf;
+  content:"";
+  margin: 0 auto;
+  position: absolute; 
+  top: 50%; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+}
+
+h2 span
+{
+  background: #fff; 
+  padding: 0 10px; 
+}
+
+.lineup{
+	display: inline-block;
+	
+}
+
+.lineup hr{
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #211813; /* Цвет линии для остальных браузеров */
+    background-color: #211813; /* Цвет линии для браузера Firefox и Opera */
+	height: 1px; /* Толщина линии */
+	width:390px;
+}
+
+.lineup hr:first-child{
+	margin-right: 15px;
+}
+
+.lineup hr:last-child{
+	margin-left: 15px;
+}
+
+.lineup hr{
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #211813; /* Цвет линии для остальных браузеров */
+    background-color: #211813; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+
+.lineup a{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.social{
+	padding-left: 16px;
+	padding-right: 16px;
+  
+}
+
+.social.vk{
+	background: url('img/vk.png') no-repeat scroll;
+}
+
+.social.in{
+	background: url('img/in.png') no-repeat scroll;
+	padding-top:4px;
+	padding-bottom:3px;
+}
+
+.social.fb{
+	background: url('img/fb.png') no-repeat scroll;
+}
+
+.footertext{	
+    top: 50%;
+	position: relative;
+	margin-top: -10px;
+	margin-right: 17%;
+	margin-left: 17%;
+	color: #ffeab3;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 18px;
+}
+
+.zahodi-icon{
+	position:absolute;top:50%;left:50%;
+	width:100px;height:100px;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.freespace{
+	width:17%;height:100%;
+}
+
+.language{width:30px;}
+
+.header-text{
+	font-size:99px;
+	letter-spacing: 0.05em;
+}
+
+.about-frame .header-text{
+	padding-top:93px;padding-bottom: 70px;
+}
+
+.podii-frame .header-text{
+	padding-top:110px;padding-bottom: 65px;
+}
+
+.zahodi-frame .header-text{
+	padding-top:93px;padding-bottom: 70px;
+}
+
+.tren-frame .header-text{
+	padding-top:93px;padding-bottom: 70px;
+	color:#ffeab3;
+}
+
+.content-text{
+	font-size:28px;
+}
+
+.about-frame .content-text{
+	width: 666px;padding-top:73px;padding-bottom: 83px;
+}
+
+.podii-frame .content-text{
+	width: 785px;padding-top:88px;padding-bottom: 150px;
+}
+
+.zahodi-frame .content-text{
+	width: 815px;padding-top:73px;
+}
+
+.tren-frame .content-text{
+	width: 560px;padding-top:73px;padding-bottom: 83px;
+	color:#ffeab3;
+}
+
+.about-photos-frame{
+	height:90%;min-height:969px;
+}
+
+.photos-frame{
+	width:60%;height:100%;
+}
+
+.podii-icons{
+	display:inline-block;
+}
+
+.podii-icon{
+	width:275px;
+}
+
+.podii-icon img{
+	width:100px;height:110px;
+}
+
+.zahodi-content{
+	color:#ffeab3;
+	padding-left: 17%;
+	padding-right: 17%;
+	position:absolute;
+	bottom:115px;
+}
+
+@media screen and (max-width: 1600px) {
+	.zahodi-content{
+		bottom:180px;
+	}
+
+	.zahodi-icon{
+		margin-top: -150px;
+	}
+
+}
+
+.zahodi-button{
+	position:absolute;
+	bottom:115px;
+	right: 17%;
+}
+
+.tren-frame{
+	height:1616px;
+	background-color:#28201b;
+}
+
+.contact-form{
+	width:55%;
+	margin-bottom: 80px;
+}
+
+.site-footer{
+	height:126px;
+	background-color:#28201b;
+}
+
+.arrow-down{
+	bottom: 25px;
+    position: absolute;
+}
+
+.horizontal-line{
+	right: 17%;
+    bottom: 0px;
+	position: absolute;
+	height: 50%;
+	
+}
+
+.main-horizontal-line{
+	height: 60%;
+	position: absolute;
+	bottom: 0px;
+	border-right: 1px solid #ffeab3;
+}
+@media screen and (max-height: 900px) {
+	.main-horizontal-line{
+		height: 50%;
+	}
+}
+
+.back-change-item{
+	border: 2px solid #ffeab3;
+	width: 23px;
+	height: 23px;
+	transform: rotate(45deg);
+	margin-bottom: 35px;
+    margin-left: -13px;
+}
+
+.back-change-item.active{
+	background-color: #ffeab3;
+}
