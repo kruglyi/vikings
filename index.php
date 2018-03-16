@@ -7,38 +7,37 @@
 
 	<!-- main page -->
 	<div class="main-frame background-cover">
-		<div class="header">		
-			<div class="left freespace"></div>
-			<div class="header-links left">
-				<div class="header-links-left hover-underscore"><a href="#" >Про нас</a></div>
-				<div class="header-links-left hover-underscore"><a href="#" >Події</a></div>
-				<div class="header-links-left hover-underscore"><a href="#" >Заходи</a></div>
-				<div class="header-links-left hover-underscore"><a href="#" >Тренування</a></div>
-				<div class="header-links-left hover-underscore"><a href="#" >Контакти</a></div>
-			</div>			
-			<div class="freespace right"></div>
-			<div class="header-links right" style="width:25%;">
-				<div class="header-links-right"><span class="right">+38 (050) 131 83 03</span></div>
-				<div class="header-links-right"><span href="#" class="right">+38 (050) 664 25 94</span></div>
-				<div class="header-links-right right">
-					<div class="language hover-underscore left" ><a href="#" class="active-link" >ua</a></div>
-					<div class="language hover-underscore left" ><a href="#" >en</a></div>
+			<div class="header">		
+				<div class="header-links header-links-l">
+					<div class="header-links-left hover-underscore "><a href="#" >Про нас</a></div>
+					<div class="header-links-left hover-underscore "><a href="#" >Події</a></div>
+					<div class="header-links-left hover-underscore "><a href="#" >Заходи</a></div>
+					<div class="header-links-left hover-underscore "><a href="#" >Тренування</a></div>
+					<div class="header-links-left hover-underscore"><a href="#" >Контакти</a></div>
+				</div>			
+				<div class="header-links header-links-r">
+				<div class="header-links-right">
+						<div class="language hover-underscore left" ><a href="#" class="active-link" >ua</a></div>
+						<div class="language hover-underscore left" ><a href="#" >en</a></div>
+					</div>
+					<div class="header-links-right"><span class="right">+38 (050) 131 83 03</span></div>
+					<div class="header-links-right"><span href="#" class="right">+38 (050) 664 25 94</span></div>
+					
 				</div>
+				<center>
+					<div class="header-logo">
+						<img src="img/logo.svg" >
+					</div>
+				</center>
 			</div>
-			<center>
-				<div class="header-logo">
-					<img src="img/logo.svg" >
-				</div>
-			</center>
-		</div>
-		<div class="main-page-text">Історія ближче, ніж ти думаеш</div>
-		<center><img class="arrow-down" src="img/down_arrow.png"/></center>
-		<div class="horizontal-line">
-			<div class="back-change-item active"></div>
-			<div class="back-change-item"></div>
-			<div class="back-change-item"></div>
-			<div class="main-horizontal-line"></div>
-		</div>
+			<div class="main-page-text">Історія ближче, ніж ти думаеш</div>
+			<center><img class="arrow-down" src="img/down_arrow.png"/></center>
+			<div class="horizontal-line">
+				<div class="back-change-item active"></div>
+				<div class="back-change-item"></div>
+				<div class="back-change-item"></div>
+				<div class="main-horizontal-line"></div>
+			</div>
 	</div>
 	
 	<!-- about page -->

@@ -146,18 +146,39 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .header-links{
 	height:100%;
+	width: 50%;
 	padding-top:30px;		
 	letter-spacing: 0.05em;
 }
 
+.header-links-l{
+	text-align: right;
+    padding-right: 125px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.header-links-r{
+	text-align: left;
+    padding-left: 125px;
+    float: right;
+    box-sizing: border-box;
+}
+
 .header-links-left{
-	float:left;
 	padding-left: 50px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1820px) {	
+	.header-links-left{
+		padding-left: 25px;
+	}
 }
 
 .header-links-right{
-	float:right;
-	width: 37%;
+	width: 150px;
+	float: left;
 }
 
 .header-links-right.right{
@@ -223,6 +244,10 @@ a.active-link{
 	 border-radius:90px;
 	 width:180px;
 	 height:180px;	 
+	 position: absolute;
+	 top: 0;
+	 left: 50%;
+	 margin-left: -80px;
 }
 .header-logo img{
 	width:130px;
