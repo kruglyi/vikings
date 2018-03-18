@@ -36,17 +36,33 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	font-weight: normal;
 	font-style: normal;
   }
+
+
+@font-face {
+	font-family: 'HelveticaNeueCyr-Light';
+	src: url('font/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),  url('font/HelveticaNeueCyr-Light.otf')  format('opentype'),
+		   url('font/HelveticaNeueCyr-Light.woff') format('woff'), url('font/HelveticaNeueCyr-Light.ttf')  format('truetype'), url('font/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
   
 
-  
+ body{
+	 margin:0;
+	 padding:0;
+	 min-width:1007px;
+ }
 .main-frame {
 	background: url('img/main_background.jpg') no-repeat scroll;  
 	height:100%;
+	min-height:768px;
+	position: relative;
 }
 
 .about-frame {
 	background: url('img/pro-nas_background.jpg') no-repeat scroll;
-	height:730px;
+	height:570px;
 	font-family:'Oranienbaum-Regular';
 	color:#211813;
 }
@@ -77,7 +93,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .podii-frame {
 	background: url('img/podii_background.jpg') no-repeat scroll;
-	height:1155px;
+	height:860px;
 }
 
 .zahodi-frame {
@@ -127,7 +143,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .contacts-frame {
 	background: url('img/contact_background.jpg') no-repeat scroll;
-	height:1000px;
 }
 
 .background-cover{
@@ -148,7 +163,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	height:100%;
 	width: 50%;
 	padding-top:30px;		
-	letter-spacing: 0.05em;
 }
 
 .header-links-l{
@@ -167,12 +181,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .header-links-left{
 	padding-left: 50px;
-	display: inline-block;
+	display: inline-block;	
+	letter-spacing: 0.05em;
 }
 
 @media screen and (max-width: 1820px) {	
 	.header-links-left{
 		padding-left: 25px;
+	}
+}
+
+@media screen and (max-width: 1060px) {	
+	.header-links-left{
+		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.header-links-right{
+		width: 120px !important;
 	}
 }
 
@@ -254,10 +281,17 @@ a.active-link{
 	 height:130px;
 	 padding-top: 25px;
 }
+@media screen and (max-width: 1024px) {
+	.main-page-text{		
+		font-size: 84px !important;
+	}
 
+}
 .main-page-text{
 	width: 60vw;
-    height: 40vh;
+	height: 40vh;
+	min-height: 320px;	
+    min-width: 626px;
     font-size: 8vw;
 	margin-left:17%;    
 	bottom: 10%;    
@@ -280,7 +314,7 @@ a.active-link{
 	font-size: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 0.075em;
+	letter-spacing: 0.1em;
 }
 
 .btn.btn-white{
@@ -335,16 +369,13 @@ a.active-link{
 .podii-elem-h{
 	font-family: "Oranienbaum-Regular";
 	font-size: 24px;
-	text-transform: uppercase;
 	color: #211813;	
 	letter-spacing: 0.05em;
 }
 .podii-elem-text{
-	font-family: "HelveticaNeueCyr-Roman";
-	font-style: Roman;
+	font-family: "HelveticaNeueCyr-Light";
 	font-size: 20px;
 	color: #211813;	
-	letter-spacing: 0.05em;
 }
 
 .background-video{
@@ -356,15 +387,19 @@ a.active-link{
 }
 
 .contact-head{
-	font-size:99px;
-	padding-top:100px;
-	padding-bottom: 25px;
+	
+	font-family: "Oranienbaum-Regular";
+	font-size:72px;
+	letter-spacing: 0.05em;
+	padding-top:45px;
+	padding-bottom: 5px;
 	text-transform: uppercase;
 }
 
 .contact-text{
-	font-size:58px;
-	padding-bottom: 100px;
+	font-size:40px;	
+	letter-spacing: 0.05em;
+	padding-bottom: 40px;
 }
 
 .form-input{
@@ -373,7 +408,8 @@ a.active-link{
 	font-size: 16px;
 	background: transparent;
 	border: 1px solid #211813;
-	text-indent: 30px;
+	text-indent: 30px;	
+	letter-spacing: 0.05em;
 }
 
 .form-input.small{
@@ -422,7 +458,6 @@ h2 span
     color: #211813; /* Цвет линии для остальных браузеров */
     background-color: #211813; /* Цвет линии для браузера Firefox и Opera */
 	height: 1px; /* Толщина линии */
-	width:390px;
 }
 
 .lineup hr:first-child{
@@ -446,23 +481,28 @@ h2 span
 }
 
 .social{
-	padding-left: 16px;
-	padding-right: 16px;
-  
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 10px;  
 }
 
 .social.vk{
 	background: url('img/vk.png') no-repeat scroll;
+	background-position: 10px 4px;
 }
 
 .social.in{
 	background: url('img/in.png') no-repeat scroll;
+	background-position:11px 0px;/*
 	padding-top:4px;
 	padding-bottom:3px;
+	*/
 }
 
 .social.fb{
 	background: url('img/fb.png') no-repeat scroll;
+	background-position:18px 0px;
 }
 
 .footertext{	
@@ -472,7 +512,7 @@ h2 span
 	margin-right: 17%;
 	margin-left: 17%;
 	color: #ffeab3;
-	font-family: "HelveticaNeueCyr-Roman";
+	font-family: "HelveticaNeueCyr-Light";
 	font-size: 18px;
 }
 
@@ -490,46 +530,80 @@ h2 span
 .language{width:30px;}
 
 .header-text{
-	font-size:99px;
-	letter-spacing: 0.05em;
+	font-size:72px;
+	letter-spacing: 0.05em;	
+	font-family: "Oranienbaum-Regular";
 }
 
 .about-frame .header-text{
-	padding-top:93px;padding-bottom: 70px;
+	padding-top:33px;
+	padding-bottom: 20px;
 }
 
 .podii-frame .header-text{
-	padding-top:110px;padding-bottom: 65px;
+	padding-top:60px;
+	padding-bottom: 35px;
 }
 
 .zahodi-frame .header-text{
-	padding-top:93px;padding-bottom: 70px;
+	padding-bottom: 20px;	
+	font-family: "Oranienbaum-Regular";
 }
 
 .tren-frame .header-text{
-	padding-top:93px;padding-bottom: 70px;
-	color:#ffeab3;
+	padding-top:43px;
+	padding-bottom: 30px;
+	color:#ffeab3;	
+	font-family: "Oranienbaum-Regular";
+}
+.tren-frame .trentext{
+	height:50%;	
+}
+.tren-frame .trentext>div{
+	padding:20px;
+	max-width:800px;
+	padding-left: 25%;
 }
 
 .content-text{
-	font-size:28px;
+	font-size:28px;	
+	font-family: "Oranienbaum-Regular";
 }
 
 .about-frame .content-text{
-	width: 666px;padding-top:73px;padding-bottom: 83px;
+	width: 666px;
+	padding-top:33px;
+	padding-bottom: 63px;
+	line-height: 36px;
 }
 
 .podii-frame .content-text{
-	width: 785px;padding-top:88px;padding-bottom: 150px;
+	width: 650px;
+	padding-top:50px;
+	padding-bottom: 80px;
+	line-height: 36px;	
+	color:#211813;
+	font-size:22px;	
+	font-family: "Oranienbaum-Regular";
 }
 
 .zahodi-frame .content-text{
-	width: 815px;padding-top:73px;
+	max-width: 630px;
+	padding-top:33px;
+	padding-bottom:70px;
+	line-height: 36px;
+	font-size:22px;	
+	font-family: "Oranienbaum-Regular";
 }
 
 .tren-frame .content-text{
-	width: 560px;padding-top:73px;padding-bottom: 83px;
-	color:#ffeab3;
+	padding-top:33px;
+	padding-bottom: 63px;
+	color:#ffeab3;	
+	line-height: 36px;
+	font-size:22px;	
+	max-width: 560px;
+	font-family: "Oranienbaum-Regular";
 }
 
 .about-photos-frame{
@@ -541,11 +615,13 @@ h2 span
 }
 
 .podii-icons{
-	display:inline-block;
+	max-width:1200px;
+	margin:0 auto;
 }
-
 .podii-icon{
-	width:275px;
+	width:25%;
+	box-sizing:border-box;
+	padding:10px;
 }
 
 .podii-icon img{
@@ -557,7 +633,7 @@ h2 span
 	padding-left: 17%;
 	padding-right: 17%;
 	position:absolute;
-	bottom:115px;
+	bottom:75px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -578,21 +654,22 @@ h2 span
 }
 
 .tren-frame{
-	height:1616px;
+	height:1050px;
 	background-color:#28201b;
 }
 
 .contact-form{
 	width:55%;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 }
 
 .site-footer{
-	height:126px;
+	height:100px;
 	background-color:#28201b;
 }
 
 .arrow-down{
+	width: 35px;
 	bottom: 25px;
     position: absolute;
 }
@@ -619,13 +696,30 @@ h2 span
 
 .back-change-item{
 	border: 2px solid #ffeab3;
-	width: 23px;
-	height: 23px;
+	width: 18px;
+	height: 18px;
 	transform: rotate(45deg);
 	margin-bottom: 35px;
-    margin-left: -13px;
+    margin-left: -11px;
 }
 
 .back-change-item.active{
 	background-color: #ffeab3;
+}
+
+.superline{
+	display:flex;
+	padding-bottom:50px;
+	width: 57%;
+}
+.superline .socicons{ 
+    width: 180px;
+    text-align: center;
+}
+.superline .lineup{ 
+	flex: 1;
+}
+
+.decor-img{
+	width: 230px;
 }

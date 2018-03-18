@@ -1,9 +1,9 @@
-<html>
+﻿<html>
 <head>
 <title>Berserk</title>
 <link type="text/css" href="site.css" rel="stylesheet">
 </head>
-<body style="margin:0px;">
+<body>
 
 	<!-- main page -->
 	<div class="main-frame background-cover">
@@ -20,8 +20,8 @@
 						<div class="language hover-underscore left" ><a href="#" class="active-link" >ua</a></div>
 						<div class="language hover-underscore left" ><a href="#" >en</a></div>
 					</div>
-					<div class="header-links-right"><span class="right">+38 (050) 131 83 03</span></div>
-					<div class="header-links-right"><span href="#" class="right">+38 (050) 664 25 94</span></div>
+					<div class="header-links-right"><a href="tel:+38 (050) 131 83 03"class="right">+38 (050) 131 83 03</a></div>
+					<div class="header-links-right"><a href="tel:+38 (050) 664 25 94" class="right">+38 (050) 664 25 94</a></div>
 					
 				</div>
 				<center>
@@ -45,7 +45,7 @@
 		<div>
 			<center>
 			<div class="header-text">ПРО НАС</div>
-			<img src="img/decor-line.png"/>
+			<img class="decor-img" src="img/decor-line.png"/>
 			<div class="content-text">КІР БЕРСЕРК  (Чернівецька міська молодіжна громадська 
 			організація Клуб історичної реконструкції «Берсерк) 
 			заснований у 2010 році Андрієм та Максом, які 
@@ -70,7 +70,7 @@
 		<div>
 			<center>
 			<div class="header-text">ПОДІЇ</div>
-			<img src="img/decor-line.png"/>
+			<img class="decor-img" src="img/decor-line.png"/>
 			<div class="content-text">
 				<b>Основні цілі існування клубу:</b>
 				<br/>
@@ -109,12 +109,13 @@
 	<div class="zahodi-frame background-cover">
 		<div class="zahodi-content">
 				<div class="header-text" >ЗАХОДИ</div>
-				<img src="img/decor-line-light.png"/>
+				<img class="decor-img" src="img/decor-line-light.png"/>
 				<div class="content-text">Ми обожнюємо неповторну атмосферу раннього середньовіччя. 
 					Дзвін мечів та дух історії, запал битви та яскраві костюми, запальні 
-					танці та романтизм життя, захоплюючі забави та сурові ...</div>				
+					танці та романтизм життя, захоплюючі забави та сурові ...</div>	
+				<div><a href="#" class="btn btn-white"><span class="icon icon-lines"></span>Читати далі</a></div>			
 		</div>
-		<div class="zahodi-button"><a href="#" class="btn btn-white"><span class="icon icon-lines"></span>Читати далі</a></div>
+		
 		<div class="zahodi-icon"><img src="img/play.svg"></div>
 	<!-- <iframe style="min-width: 100%;min-height: 100%;" src="https://www.youtube.com/embed/eCt2wPxTgfE?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 	<!-- <iframe style="min-width: 100%;min-height: 100%;" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe> -->
@@ -127,17 +128,16 @@
 	<div class="tren-frame">
 		<div class="tren-text-contain left">
 			<div class="tren-1 background-cover"></div>
-			<div style="height:50%;">
-			<div class="left tren-freespace"></div>
-			<div class="left">
-				<div class="header-text">Тренування</div>
-				<img src="img/decor-line-light.png"/>
-				<div class="content-text">Спортивне історичне фехтування — це місце 
-				народження майбутніх бійців, які можуть 
-				продемонструвати свої навики на фестивалях 
-				та різних змаганнях ...</div>
-				<a href="#" class="btn btn-white"><span class="icon icon-lines"></span>Читати далі</a>
-			</div>
+			<div class="trentext">
+				<div>
+					<div class="header-text">ТРЕНУВАННЯ</div>
+					<img class="decor-img" src="img/decor-line-light.png"/>
+					<div class="content-text">Спортивне історичне фехтування — це місце 
+					народження майбутніх бійців, які можуть 
+					продемонструвати свої навики на фестивалях 
+					та різних змаганнях ...</div>
+					<a href="#" class="btn btn-white"><span class="icon icon-lines"></span>Читати далі</a>
+				</div>
 			</div>
 		</div>
 		<div class="tren-contain left" >
@@ -158,9 +158,11 @@
 			<textarea  class="form-input big" placeholder="ПОВІДОМЛЕННЯ..."></textarea>
 			<a onclick="form.submit();" class="btn"><span class="icon icon-lines"></span>Відправити</a>				
 		</form>
-		<div class="lineup"><hr/></div>
-		<div class="lineup"><a href="#" class="social vk"> </a><a href="#" class="social in"> </a><a href="#" class="social fb"> </a></div>
-		<div class="lineup"><hr/></div>
+		<div class="superline">
+			<div class="lineup"><hr/></div>
+			<div class="socicons"><a href="#" class="social vk"></a><a href="#" class="social in"></a><a href="#" class="social fb"></a></div>
+			<div class="lineup"><hr/></div>
+		</div>
 		</center>
 	</div>
 	<footer class="site-footer">
