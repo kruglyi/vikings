@@ -312,7 +312,6 @@ a.active-link{
 	outline-offset: 4px;
 	font-family:"RistrettoPro-Bold";
 	font-size: 24px;
-	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -513,7 +512,7 @@ h2 span
 	margin-left: 17%;
 	color: #ffeab3;
 	font-family: "HelveticaNeueCyr-Light";
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .zahodi-icon{

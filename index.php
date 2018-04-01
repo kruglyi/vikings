@@ -30,7 +30,7 @@
 					</div>
 				</center>
 			</div>
-			<div class="main-page-text">Історія ближче, ніж ти думаеш</div>
+			<div class="main-page-text">Історія ближче, ніж ти думаєш</div>
 			<center><img class="arrow-down" src="img/down_arrow.png"/></center>
 			<div class="horizontal-line">
 				<div class="back-change-item active"></div>
