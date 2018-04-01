@@ -13,7 +13,7 @@
 					<div class="header-links-left hover-underscore "><a href="#" >Події</a></div>
 					<div class="header-links-left hover-underscore "><a href="#" >Заходи</a></div>
 					<div class="header-links-left hover-underscore "><a href="#" >Тренування</a></div>
-					<div class="header-links-left hover-underscore"><a href="#" >Контакти</a></div>
+					<div class="header-links-left hover-underscore"><a href="contacts.php" >Контакти</a></div>
 				</div>			
 				<div class="header-links header-links-r">
 				<div class="header-links-right">
@@ -160,7 +160,7 @@
 		</form>
 		<div class="superline">
 			<div class="lineup"><hr/></div>
-			<div class="socicons"><a href="#" class="social vk"></a><a href="#" class="social in"></a><a href="#" class="social fb"></a></div>
+			<div class="socicons"><a href="https://vk.com/club17573259" class="social vk"></a><a href="#" class="social in"></a><a href="https://www.facebook.com/groups/807763889397170/" class="social fb"></a></div>
 			<div class="lineup"><hr/></div>
 		</div>
 		</center>

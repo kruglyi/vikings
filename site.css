@@ -314,6 +314,7 @@ a.active-link{
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	cursor: pointer;
 }
 
 .btn.btn-white{
@@ -385,17 +386,22 @@ a.active-link{
     min-height: 100%;
 }
 
-.contact-head{
-	
+.contact-head{	
 	font-family: "Oranienbaum-Regular";
 	font-size:72px;
 	letter-spacing: 0.05em;
 	padding-top:45px;
+	color: #211813;	
 	padding-bottom: 5px;
 	text-transform: uppercase;
 }
 
+.contact-head.solo-page{
+	padding-top:160px;
+}
+
 .contact-text{
+	color: #211813;	
 	font-size:40px;	
 	letter-spacing: 0.05em;
 	padding-bottom: 40px;
@@ -687,6 +693,7 @@ h2 span
 	bottom: 0px;
 	border-right: 1px solid #ffeab3;
 }
+
 @media screen and (max-height: 900px) {
 	.main-horizontal-line{
 		height: 50%;
@@ -721,4 +728,41 @@ h2 span
 
 .decor-img{
 	width: 230px;
+}
+
+.contacts-frame .decor-img{
+	padding-bottom:30px;
+	padding-top:20px;
+}
+
+#map {
+	width: 100%;
+	height: 680px;
+}
+
+.contacts-border{
+	border-bottom: 1px solid #211813;
+}
+
+.contacts-icons{
+	position: relative;
+    float: right;
+    top: -10px;
+}
+
+.footer-icons{
+	top: 35px;
+    position: relative;
+}
+
+.footertext.footer-contacts{
+	margin-top:-40px;
+}
+
+.contacts-subfooter{
+	width: 100%;
+	height: 280px;
+	color: #ffeab3;
+	background-color:#28201b;
+	border-bottom: 1px solid #211813;
 }
