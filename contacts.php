@@ -71,15 +71,15 @@
 			<input type="text" class="form-input small left" placeholder="ВАШЕ ІМ'Я"/>
 			<input type="text" class="form-input small right" placeholder="EMAIL"/><br/>
 			<textarea  class="form-input big" placeholder="ПОВІДОМЛЕННЯ..."></textarea>
-			<a onclick="form.submit();" class="btn"><span class="icon icon-lines"></span>Відправити</a>	
 			<div class="socicons contacts-icons"><a href="https://vk.com/club17573259" class="social vk"></a><a href="#" class="social in"></a><a href="https://www.facebook.com/groups/807763889397170/" class="social fb"></a></div>			
+			<a onclick="form.submit();" class="btn"><span class="icon icon-lines"></span>Відправити</a>				
 			<div class="contacts-afterform">		
 				<div class="left">
-					<b>+38 (050) 664 25 94</b> - Андрій<br />
-					<b>+38 (050) 131 83 03</b> - Максим		
+					<b>+38 (050) 664 25 94</b> <span>Андрій</span><br />
+					<b>+38 (050) 131 83 03</b> <span>Максим</span>	
 				</div>	
 				<div class="right">
-				<b>Україна, м. Чернівці
+				<b>Україна, м. Чернівці<br/>
 					вул. Щепкіна, 2</b>
 				</div>
 			</div>
@@ -91,33 +91,33 @@
 	
 	<div id="map"></div>
 	<div class="contacts-subfooter">
-	<div>
-			Контакти
-			<br />
-			Україна, м. Чернівці
-		вул. Щепкіна, 2
-			<br />
-		Пошта: berserk@gmail.com		
-	</div>		
-	<div>
-		Телефонуте:<br /> <br />
-	+38 (050) 664 25 94 - Андрій<br />
-	+38 (050) 131 83 03 - Максим		
-	</div>	
-	<div>
-	НАВІГАЦІЯ<br /> <br />
-	про нас<br />
-події<br />
-заходи	<br />
-	</div>	
-	<div>
-		Тренування	<br />
-	контакти		<br />
-	</div>	
+		<div class="subfooter-content">
+			<div class="left subfooter-content3">
+				<div>КОНТАКТИ</div><br />
+				<div>Україна, м. Чернівці<br />
+				вул. Щепкіна, 2</div>
+				Пошта: <b>berserk@gmail.com</b>	
+			</div>		
+			<div class="left subfooter-content1">
+				<div>Телефонуте:</div>	
+				<span><b>+38 (050) 664 25 94</b> - Андрій<br />
+				<b>+38 (050) 131 83 03</b> - Максим	</span>	
+			</div>	
+			<div class="right subfooter-content2">
+				<div class="hover-underscore"><a href="#">Тренування</a></div>
+				<div class="hover-underscore"><a href="#">контакти</a></div>
+			</div>
+			<div class="right ">
+				НАВІГАЦІЯ<br /> <br />
+				<div class="hover-underscore"><a href="#">про нас</a></div>
+				<div class="hover-underscore"><a href="#">події</a></div>
+				<div class="hover-underscore"><a href="#">заходи</a></div>
+			</div>	
+		</div>	
 	</div>
 	<footer class="site-footer">
 		<span class="footertext left">© 2018 berserk. All rights reserved</span>
-		<div class="socicons footer-icons"><a href="https://vk.com/club17573259" class="social vk"></a><a href="#" class="social in"></a><a href="https://www.facebook.com/groups/807763889397170/" class="social fb"></a></div>
+		<div class="socicons footer-icons"><a href="https://vk.com/club17573259" class="social vk white"></a><a href="#" class="social in white"></a><a href="https://www.facebook.com/groups/807763889397170/" class="social fb white"></a></div>
 		<span class="footertext right footer-contacts">Made by T&T</span>
 	</footer>
 </body>
