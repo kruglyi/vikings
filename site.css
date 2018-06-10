@@ -67,6 +67,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	color:#211813;
 }
 
+.about-frame.solo {
+	height: auto;
+}
+
 .about-1 {
 	background: url('img/pro-nas_1.jpg') no-repeat;	
 	width:50%;
@@ -396,7 +400,7 @@ a.active-link{
 	text-transform: uppercase;
 }
 
-.contact-head.solo-page{
+.solo-page{
 	padding-top:160px;
 }
 
@@ -846,3 +850,80 @@ h2 span
 .subfooter-content3 div{	
 	padding-bottom: 30px;
 }
+
+.about-frame .about-text{
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 24px;
+	color: #211813;		
+	padding-left: 17%;
+	padding-right: 17%;
+	line-height: 42px;	
+	text-align: left;	
+	padding-bottom: 65px;
+}
+
+.about-frame.solo .content-text{
+	padding-bottom: 40px;
+}
+
+.about-solo-1 {
+	background-image: url('img/pronas1.png');	
+	width:50%;
+	height:23%;
+}
+
+.about-solo-2 {
+	background-image: url('img/pronas2.png');	
+	width:50%;
+	height:23%;
+}
+
+.about-solo-3 {
+	background-image: url('img/pronas3.png');	
+	width:100%;
+	height:50%;
+}
+
+.about-solo-4 {
+	background-image: url('img/pronas4.png');	
+	width:100%;
+	height:37%;
+}
+
+.about-solo-5 {
+	background-image: url('img/pronas5.png');	
+	width:100%;
+	height:40%;
+}
+
+.about-solo-6 {
+	background-image: url('img/pronas6.png');	
+	width:100%;
+	height:50%;
+}
+
+.photos-frame2{
+	width:40%;height:100%;
+}
+
+.about-photos-solo-frame{
+	height: 1600px;
+}
+
+.pronas-faces{
+	height: 845px;	
+	padding-top: 23px;
+}
+
+.pronas-faces .header-text{
+	padding-top: 20px;
+}
+
+.faces-slider{
+	width: 90%;
+}
+
+.faces-slider .slick-slide{
+     height: 500px;
+}
+

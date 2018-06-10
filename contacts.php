@@ -42,7 +42,7 @@
 	<div class="contacts-frame contacts-border background-cover">
 		<div class="header">		
 				<div class="header-links header-links-l">
-					<div class="header-links-left hover-underscore "><a href="#" >Про нас</a></div>
+					<div class="header-links-left hover-underscore "><a href="pronas.php" >Про нас</a></div>
 					<div class="header-links-left hover-underscore "><a href="#" >Події</a></div>
 					<div class="header-links-left hover-underscore "><a href="#" >Заходи</a></div>
 					<div class="header-links-left hover-underscore "><a href="#" >Тренування</a></div>
